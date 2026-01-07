@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(./font/Poppins-Regular.ttf);
+}
+/* navbar section stat */
+.icon{
+    display: none;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px ;
+}
+.nav-link{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav-link li{
+    list-style: none;
+}
+.nav-link li a{
+    text-decoration: none;
+    font-family: Poppins;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link button{
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 4px;
+
+}
+.nav-link button a{
+    text-decoration: none;
+    font-family: Poppins;
+    color: white;
+    text-transform: uppercase;
+}
+/* navbar section end */
+
+/* hero section start */
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+    gap: 70px;
+    position: relative;
+}
+.content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Poppins;
+}
+.content span{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+}
+.content p{
+    color: rgb(145, 148, 162);
+}
+.heroimg{
+    width: 30%;
+}
+.heroimg img{
+    width: 100%;
+}
+.content .btns button{
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: Poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btns{
+    display: flex;
+    gap: 30px;
+}
+.btns #first{
+    background-color: rgb(82, 103, 223);
+    color: white;
+}
+.btns #second{
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    
+}
+.btns #first:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+}
+.btns #second:hover{
+    background-color: rgb(82, 103, 223);
+    color: white;
+
+}
+.rectangle{
+    width: 50%;
+    height: 20rem;
+    background-color: rgb(82, 103, 223); 
+    display: block;
+    border-bottom-left-radius:999px; 
+    border-top-left-radius: 999px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    z-index: -5;
+}
+/* hero section end */
+
+/* features section start */
+.Features{
+    width: 100%;
+    gap: 70%;
+    position: relative;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 70px 0px;
+    font-family: Poppins;
+}
+.container h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container p{
+    width: 50%;
+    color: rgb(145, 148, 162);
+    text-align: center;
+    align-items: center;
+
+}
+/* features1 section start */
+.features1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 70px 0px;
+}
+.features1 .img1{
+    width: 30%;
+}
+.features1 .img1 img{
+    width: 100%;
+}
+.features1 .content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+}
+.features1 .content h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.features1 .content .btns{
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: Poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.btns #one{
+    background-color: rgb(82, 103, 223);
+    color: white;
+}
+.btns #one:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+}
+.Features .Rounded1{
+    width: 50%;
+    height: 20rem;
+    background-color: rgb(82, 103, 223); 
+    display: block;
+    border-bottom-right-radius:999px; 
+    border-top-right-radius: 999px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    z-index: -5;
+}
+/* features1 section end */
+
+/* features2 section start */
+.features2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 70px 0px;
+}
+.features2 .content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Poppins;
+}
+.features2 .img2{
+    width: 30%;
+}
+.features2 .img2 img{
+    width: 100%;
+}
+.features2 .content .btns{
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: Poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btns #two{
+    background-color: rgb(82, 103, 223);
+    color: white;
+}
+.btns #two:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);  
+}
+.Features .Rounded2{
+    width: 50%;
+    height: 20rem;
+    background-color: rgb(82, 103, 223); 
+    display: block;
+    border-bottom-left-radius:999px; 
+    border-top-left-radius: 999px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    z-index: -5;
+}
+/* features2 section end */
+
+
+/* features3 section start */
+.features3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 70px 0px;
+}
+.features3 .img3{
+    width: 30%;
+}
+.features3 .img3 img{
+    width: 100%;
+}
+.features3 .content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+}
+.features3 .content .btns{
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: Poppins;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.btns #three{
+    background-color: rgb(82, 103, 223);
+    color: white;
+}
+.btns #three:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+}
+.Features .Rounded3{
+    width: 50%;
+    height: 20rem;
+    background-color: rgb(82, 103, 223); 
+    display: block;
+    border-bottom-right-radius:999px; 
+    border-top-right-radius: 999px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    z-index: -5;
+}
+  
+/* features3 section end */
+/* features section end */
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media  screen and (max-width:480px) {
+    .nav-link{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .heroimg{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .hero{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .heroimg{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:1279px){
+    
+}
+@media screen and (min-width:1280px){
+    
+}
