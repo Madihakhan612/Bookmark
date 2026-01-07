@@ -120,7 +120,7 @@ header{
     border-top-left-radius: 999px;
     position: absolute;
     right: 0px;
-    top: 50%;
+    top: 30%;
     z-index: -5;
 }
 /* hero section end */
@@ -211,7 +211,7 @@ header{
     border-top-right-radius: 999px;
     position: absolute;
     left: 0px;
-    top: 50%;
+    top: 25%;
     z-index: -5;
 }
 /* features1 section end */
@@ -264,7 +264,7 @@ header{
     border-top-left-radius: 999px;
     position: absolute;
     right: 0px;
-    top: 50%;
+    top: 55%;
     z-index: -5;
 }
 /* features2 section end */
@@ -321,11 +321,12 @@ header{
     border-top-right-radius: 999px;
     position: absolute;
     left: 0px;
-    top: 50%;
+    top: 85%;
     z-index: -5;
 }
   
 /* features3 section end */
+
 /* features section end */
 
 
