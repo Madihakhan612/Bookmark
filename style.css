@@ -19,7 +19,7 @@ header{
     padding: 50px 0px ;
 }
 .nav-link{
-    display: flex;
+    display: flex;  
     gap: 30px;
     align-items: center;
 }
@@ -130,6 +130,8 @@ header{
     width: 100%;
     gap: 70%;
     position: relative;
+    background-color: rgb(247, 247, 247);
+    z-index: -5;
     
 }
 .container{
@@ -202,10 +204,11 @@ header{
     background-color: rgb(247, 247, 247);
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
 }
+
 .Features .Rounded1{
     width: 50%;
     height: 20rem;
-    background-color: rgb(82, 103, 223); 
+    background-color: rgb(82, 103, 223) !important; 
     display: block;
     border-bottom-right-radius:999px; 
     border-top-right-radius: 999px;
@@ -324,6 +327,7 @@ header{
     top: 85%;
     z-index: -5;
 }
+
   
 /* features3 section end */
 
@@ -348,15 +352,74 @@ header{
     .hero{
         flex-direction: column;
     }
+    .Features{
+        flex-direction: column;
+    }
+    .features1{
+        flex-direction: column;
+    }
+    .features2{
+        flex-direction: column;
+    }
+    .features3{
+        flex-direction: column;
+    }
+
     .content{
         width: 100%;
         padding: 0px 20px;
         text-align: center;
     }
+    .container{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .features1 .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .features2 .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .features3 .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+
+    }
     .heroimg{
+       width: 100%;
+       padding: 0px 30px;
+    }
+    .features1 .img1{
         width: 100%;
         padding: 0px 30px;
     }
+    .features2 .img2{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .features3 .img3{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .rectangle{
+        display: none;
+    }
+    .Features .Rounded1{
+        display: none;
+    }
+    .Features .Rounded2{
+        display: none;
+    }
+    .Features .Rounded3{
+        display: none;
+    }
+    
     
 }
 @media screen and (min-width:481px) and (max-width:768px){
@@ -372,11 +435,84 @@ header{
         width: 100%;
         padding: 0px 30px;
     }
+    .rectangle{
+        display: none;
+    }
+    .Features .Rounded1{
+        display: none;
+    }
+    .Features .Rounded2{
+        display: none;
+    }
+    .Features .Rounded3{
+        display: none;
+    }
+    .features1 .img1{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .features2 .img2{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .features3 .img3{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .container{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .features1 .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .features2 .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .features3 .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .Features{
+        flex-direction: column;
+    }
+    .features1{
+        flex-direction: column;
+    }
+    .features2{
+        flex-direction: column;
+    }
+    .features3{
+        flex-direction: column;
+    }
+
     
 }
 @media screen and (min-width:769px) and (max-width:1279px){
     
 }
 @media screen and (min-width:1280px){
+    .rectangle{
+        top: 40%;
+        display: block !important;
+    }
+    .Features .Rounded1{
+        top: 25%;
+        display: block !important;
+    }
+    .Features .Rounded2{
+        top: 55%;
+        display: block !important;
+    }
+    .Features .Rounded3{
+        top: 85%;
+        display:  block !important;
+    }
     
 }
