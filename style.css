@@ -333,6 +333,278 @@ header{
 
 /* features section end */
 
+/* Download Extension section start */
+.extension{
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    
+}
+.content{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   padding: 70px 0px;
+   text-align: center;
+
+}
+.browser{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    gap: 30px;
+    height: 50vh;
+    align-items: start;
+
+}
+/* Chrome card start */
+.Chrome{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    border-radius: 5px;
+    
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    border: 1px solid rgb(229, 231, 235);
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    border-top: 0px;
+}
+.chromeimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chromecontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.chromebtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.chromebtn button{
+    width: 90%;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color:rgb(82, 103, 223);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+.chromebtn button:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+}
+/* Chrome card end */
+/* Firefox card start */
+#firefox{
+    align-self: center;
+}
+.Firefox{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    border-radius: 5px; 
+}
+.firefoximg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firefoxcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.firefoxbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.firefoxbtn button{
+    width: 90%;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color:rgb(82, 103, 223);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+.firefoxbtn button:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+}
+/* Firefox card end */
+/* Opera card start */
+#opera{
+    align-self: flex-end;
+}
+.Opera{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    border-radius: 5px; 
+}
+.operaimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.operacontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.operabtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.operabtn button{
+    width: 90%;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color:rgb(82, 103, 223);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+.operabtn button:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+}
+/* Opera card end */
+/* Download Extension section end */
+/* Faq section sart */
+.Frequently .Faq{
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    /* z-index: -5; */
+    height: 100vh;
+}
+.frequentlycontent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 70px 0px;
+}
+/* .Question{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+} */
+.questionfaq{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+.question1{
+    display: flex;
+    gap: 140px;
+    padding: 30px 10px;
+    border: 1px solid rgb(229, 231, 235);
+}
+.question2{
+    display: flex;
+    gap: 140px;
+    padding: 30px 10px;
+    border: 1px solid rgb(229, 231, 235);
+}
+.question3{
+    display: flex;
+    gap: 140px;
+    padding: 30px 10px;
+    border: 1px solid rgb(229, 231, 235);
+}
+.question4{
+    display: flex;
+    gap: 140px;
+    padding: 30px 10px;
+    border: 1px solid rgb(229, 231, 235);
+}
+.faqbtn{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0px;
+}
+.faqbtn button{
+    width: 5%;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color:rgb(82, 103, 223);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+.faqbtn button:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+}
+/* Faq section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
