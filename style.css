@@ -338,6 +338,8 @@ header{
     width: 100%;
     background-color: white;
     height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     
 }
 .content{
@@ -349,48 +351,56 @@ header{
    gap: 20px;
    padding: 70px 0px;
    text-align: center;
+   font-family: Poppins;
 
 }
 .browser{
-    display: flex;
-    justify-content: center;
-    padding: 70px 0px;
-    gap: 30px;
-    height: 50vh;
-    align-items: start;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   height: 20vh;
+   
+  
+
 
 }
 /* Chrome card start */
+#chrome{
+    align-self: flex-start;
+}
 .Chrome{
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1); 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 20%;
-    border-radius: 5px;
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1); 
+   border-radius: 5px;
+   border-top: 0px;
+
     
 }
-.two{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    text-align: center;
-    border: 1px solid rgb(229, 231, 235);
-    padding: 20px;
-    border-radius: 5px;
-    width: 100%;
-    border-top: 0px;
-}
+
 .chromeimg{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    /* width: 20%; */
 }
+
 .chromecontent{
+    
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
 
 }
 .chromebtn{
@@ -398,6 +408,7 @@ header{
     display: flex;
     justify-content: center;
     padding: 10px 0px;
+    
 }
 .chromebtn button{
     width: 90%;
@@ -407,7 +418,8 @@ header{
     background-color:rgb(82, 103, 223);
     color: white;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 5px;
+    border: 1px solid;
     
 }
 .chromebtn button:hover{
@@ -425,8 +437,12 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20%;
+    align-items: center;
+    width: 25%;
     border-radius: 5px; 
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .firefoximg{
     display: flex;
@@ -437,6 +453,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-family: Poppins;
 }
 .firefoxbtn{
     width: 100%;
@@ -470,8 +487,12 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20%;
+    align-items: center;
+    width: 25%;
     border-radius: 5px; 
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .operaimg{
     display: flex;
@@ -482,6 +503,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-family: Poppins;
 }
 .operabtn{
     width: 100%;
@@ -508,11 +530,10 @@ header{
 /* Opera card end */
 /* Download Extension section end */
 /* Faq section sart */
-.Frequently .Faq{
+.FrequentlyFaq{
     width: 100%;
-    background-color: rgb(247, 247, 247);
-    /* z-index: -5; */
     height: 100vh;
+    background-color: rgb(247 247 247 );
 }
 .frequentlycontent{
     width: 100%;
@@ -523,42 +544,73 @@ header{
     text-align: center;
     gap: 20px;
     padding: 70px 0px;
+    font-family: Poppins;
 }
-/* .Question{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 40px;
-} */
+.frequentlycontent h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.frequentlycontent p{
+    color: rgb(145, 148, 162);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .questionfaq{
     display: flex;
     justify-content: center;
-    padding: 10px 0px;
+    gap: 40px;
     flex-direction: column;
     align-items: center;
+    /* width: 100%; */
+}
+.questionfaq span{
+    font-family: Poppins;
 }
 .question1{
     display: flex;
-    gap: 140px;
-    padding: 30px 10px;
+    gap: 100px;
+    padding: 10px 30px;
     border: 1px solid rgb(229, 231, 235);
+    width: 25%;
+    justify-content: space-between;
+    text-align: start;
+    border-bottom: 1px solid #e5e7eb;
+    
+    
 }
 .question2{
     display: flex;
-    gap: 140px;
-    padding: 30px 10px;
+    padding: 10px 30px;
     border: 1px solid rgb(229, 231, 235);
+    width: 25%;
+    justify-content: space-between;
+    border-style: solid;
+    text-align: start;
+    border-bottom: 1px solid #e5e7eb;
+    
 }
 .question3{
     display: flex;
-    gap: 140px;
-    padding: 30px 10px;
+    padding: 10px 30px;
     border: 1px solid rgb(229, 231, 235);
+    width: 25%;
+    justify-content: space-between;
+    text-align: start;
+    border-bottom: 1px solid #e5e7eb;
 }
 .question4{
     display: flex;
-    gap: 140px;
-    padding: 30px 10px;
+    padding: 10px 30px;
     border: 1px solid rgb(229, 231, 235);
+    width: 25%;
+    justify-content: space-between;
+    text-align: start;
+    border-bottom: 1px solid #e5e7eb;
 }
 .faqbtn{
     display: flex;
@@ -573,7 +625,7 @@ header{
     background: transparent;
     background-color:rgb(82, 103, 223);
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 3px;
 }
 .faqbtn button:hover{
@@ -582,6 +634,46 @@ header{
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
 }
 /* Faq section end */
+/* second last section start */
+.Join{
+    background-color: rgb(82 103 223 );
+    color: rgb(255 255 255 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 30px;
+    font-family: Poppins;
+    width: 100%;
+}
+.input{
+    display: flex;
+    width: 30%;
+    gap: 30px;
+}
+.input input{
+    padding: 10px 30px;
+    flex: 1;
+    border-radius: 5px;
+}
+.input button{
+    width: 20%;
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color:rgb(250 89 89 );
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.input button:hover{
+    color: black;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+
+}
+/* second last section end */
 
 
 
@@ -691,8 +783,73 @@ header{
     .Features .Rounded3{
         display: none;
     }
-    
-    
+    .extension{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .extension .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .browser{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        padding-top: 20rem;
+        padding-bottom: 4rem;
+          
+    }
+    #chrome{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        align-self: center;
+    }
+     
+    .Firefox{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        align-self: center;
+    }
+   
+    #opera{
+       flex-direction: column;
+       align-items: center;
+       width: 50%;
+       align-self: center;
+    }
+    .FrequentlyFaq{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .frequentlycontent{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .question1{
+        width: 100%;
+    }
+    .question2{
+        width: 100%;
+    }
+    .question3{
+        width: 100%;
+    }
+    .question4{
+        width: 100%;
+    }
+    .input{
+        width: 95%;
+        justify-content: center;
+    }
 }
 @media screen and (min-width:481px) and (max-width:768px){
     .hero{
@@ -762,6 +919,52 @@ header{
     }
     .features3{
         flex-direction: column;
+    }
+    .extension .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .frequentlycontent{
+        width: 75%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .browser{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        /* padding-top: 110%; */
+          
+    }
+    #chrome{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        align-self: center;
+        gap: 20px;
+    }
+     
+    .Firefox{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        align-self: center;
+        gap: 20px;
+    }
+   
+    #opera{
+       flex-direction: column;
+       align-items: center;
+       width: 50%;
+       align-self: center;
+       gap: 20px;
+    }
+    .input{
+        width: 61%;
+        justify-content: center;
     }
 
     
