@@ -337,9 +337,8 @@ header{
 .extension{
     width: 100%;
     background-color: white;
-    height: 100vh;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 11rem;
     
 }
 .content{
@@ -674,6 +673,29 @@ header{
 
 }
 /* second last section end */
+/* footer section start */
+footer{
+    width: 100%;
+    background-color: rgb(36 42 69 );
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav-link li a{
+    color: white;
+ }
+.footercontainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+.bars{
+    display: flex;
+    gap: 20px;
+ }
+/* footer section end */
 
 
 
@@ -849,6 +871,24 @@ header{
     .input{
         width: 95%;
         justify-content: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+    .footercontainer{
+        flex-direction: column;
+    }
+    .nav-link{
+        display: block;
+        display: flex;
+        
+    }
+    .bars{
+        display: block ;
+        
     }
 }
 @media screen and (min-width:481px) and (max-width:768px){
